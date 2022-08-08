@@ -1,0 +1,11 @@
+<script src="https://unpkg.com/htmx.org@1.8.0"></script>
+
+<div hx-get="/" hx-trigger="every 2s">
+<div id="price-holder" style="width:60%;margin:auto;padding: 30px; border:1px solid black;">
+{% for coin in coin_list %}
+<h1 style="text-align: center;">{{coin}}<h1>
+{% endfor %}
+</div>
+</div>
+<script type="text/javascript">  
+</script> 
